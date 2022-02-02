@@ -93,7 +93,6 @@ def playerx(velha):
 '''))
     if 0 <= x >= 10:
         print('apenas os numeros demostrados.')
-        print('b')
         playerx(velha)
 
     elif velha[x - 1] == js2:
